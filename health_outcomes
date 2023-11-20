@@ -1,0 +1,28 @@
+// Health Outcomes
+digraph {
+	H [label="Health Outcomes" shape=rectangle]
+	"All Teeth Lost" [label="All Teeth Lost" shape=oval]
+	H -> "All Teeth Lost"
+	Arthritis [label=Arthritis shape=oval]
+	H -> Arthritis
+	COPD [label=COPD shape=oval]
+	H -> COPD
+	"Cancer (except skin)" [label="Cancer (except skin)" shape=oval]
+	H -> "Cancer (except skin)"
+	"Chronic Kidney Disease" [label="Chronic Kidney Disease" shape=oval]
+	H -> "Chronic Kidney Disease"
+	"Coronary Heart Disease" [label="Coronary Heart Disease" shape=oval]
+	H -> "Coronary Heart Disease"
+	"Current Asthma" [label="Current Asthma" shape=oval]
+	H -> "Current Asthma"
+	Depression [label=Depression shape=oval]
+	H -> Depression
+	Diabetes [label=Diabetes shape=oval]
+	H -> Diabetes
+	"High Blood Pressure" [label="High Blood Pressure" shape=oval]
+	H -> "High Blood Pressure"
+	"High Cholesterol" [label="High Cholesterol" shape=oval]
+	H -> "High Cholesterol"
+	Obesity [label=Obesity shape=oval]
+	H -> Obesity
+}
